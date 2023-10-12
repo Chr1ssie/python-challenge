@@ -1,0 +1,8 @@
+
+Financial Analysis
+----------------------------
+Total Months: 50
+Total Net: $11897047
+Average Net Change: $-18934.96
+Greatest Increase in Profit: May-10 ($1581126)
+Greatest Decrease in Profit: Feb-14 ($-1825558)
