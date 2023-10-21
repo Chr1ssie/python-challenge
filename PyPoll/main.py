@@ -39,7 +39,7 @@ with open(file_to_load) as election_data:
             candidate_votes[candidate_name] = 0
 
             #Add vote to candidate's count
-            candidate_votes[candidate_name] = candidate_votes[candidate_name] + 1
+        candidate_votes[candidate_name] = candidate_votes[candidate_name] + 1
 
 # Print results and export data to text file
 with open(file_to_output, "w") as txt_file:
@@ -68,11 +68,11 @@ with open(file_to_output, "w") as txt_file:
             winning_candidate = candidate
 
         # Print each candidate's count and percentage
-    voter_output = f"{candidate}: {vote_percentage: .3f}% ({votes})\n"
-    print(voter_output)
+        voter_output = f"{candidate}: {vote_percentage:.3f}% ({votes})\n"
+        print(voter_output)
 
         # Save it to text file
-    txt_file.write(voter_output)
+        txt_file.write(voter_output)
 
     # Print winning candidate
     winning_candidate_summary = (
